@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>443</width>
+    <height>506</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>200</width>
+    <height>160</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>HebrewBrew Application</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="8" column="2">
+     <widget class="QPushButton" name="Modifier_THE">
+      <property name="text">
+       <string>&quot;The ___&quot;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="3">
+     <widget class="QPushButton" name="productClearButton">
+      <property name="text">
+       <string>&quot;___&quot;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="22" column="0" colspan="4">
+     <widget class="QTextEdit" name="copyText">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Roboto'; font-size:16pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+      <property name="placeholderText">
+       <string>מילה</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QPushButton" name="Modifier_AND">
+      <property name="text">
+       <string>&quot;And ___&quot;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0" colspan="4">
+     <widget class="QTextEdit" name="productWord">
+      <property name="font">
+       <font>
+        <pointsize>33</pointsize>
+       </font>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Roboto'; font-size:33pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+      <property name="placeholderText">
+       <string>מילה</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QPushButton" name="Modifier_NOT">
+      <property name="text">
+       <string>&quot;You/Your&quot;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="3">
+     <widget class="QPushButton" name="Modifier_THEIR">
+      <property name="text">
+       <string>&quot;Their ___&quot;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="2">
+     <widget class="QPushButton" name="Modifier_Clear">
+      <property name="text">
+       <string>Clear</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="3">
+     <widget class="QPushButton" name="Modifier_PREPOSITION">
+      <property name="text">
+       <string>&quot;With/At ___&quot;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QPushButton" name="Modifier_FORTO_2">
+      <property name="text">
+       <string>&quot;From ___&quot;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0" colspan="4">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Additional Options:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="1">
+     <widget class="QPushButton" name="productAddButton">
+      <property name="text">
+       <string>Add</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="3">
+     <widget class="QLCDNumber" name="GemProduct">
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Flat</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QPushButton" name="Modifier_FORTO">
+      <property name="text">
+       <string>&quot;For/To ___&quot;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QPushButton" name="Modifier_MY">
+      <property name="text">
+       <string>Plur Masc</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="QPushButton" name="Modifier_ITS">
+      <property name="text">
+       <string>&quot;Its ___&quot;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2">
+     <widget class="QPushButton" name="Modifier_OUR">
+      <property name="text">
+       <string>&quot;We/Our ___&quot;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QPushButton" name="Modifier_OR">
+      <property name="text">
+       <string>Plural Fem</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0" colspan="3">
+     <widget class="QPlainTextEdit" name="rootForm">
+      <property name="lineWrapMode">
+       <enum>QPlainTextEdit::NoWrap</enum>
+      </property>
+      <property name="placeholderText">
+       <string>root word</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QPushButton" name="OkButton">
+      <property name="text">
+       <string>Translate</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" colspan="4">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>English phrase:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="3">
+     <widget class="QLCDNumber" name="GemSentence">
+      <property name="smallDecimalPoint">
+       <bool>false</bool>
+      </property>
+      <property name="mode">
+       <enum>QLCDNumber::Dec</enum>
+      </property>
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Flat</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Full Sentence:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QPushButton" name="Modifier_PERSON">
+      <property name="text">
+       <string>Profession</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QPushButton" name="Modifier_NOUN">
+      <property name="text">
+       <string>Verb to Noun</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Spelled word:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="1">
+     <widget class="QPushButton" name="spellButton">
+      <property name="text">
+       <string>Spell</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>443</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHebrew_Brew">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionLoad_Dictionary"/>
+    <addaction name="actionSave_Dictionary"/>
+    <addaction name="actionView_Dictionary"/>
+    <addaction name="actionEmpty_Dictionary"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionSpectral_Speller"/>
+    <addaction name="actionNekudot_Guide"/>
+    <addaction name="actionTorah_Study"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <addaction name="menuHebrew_Brew"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionLoad_Dictionary">
+   <property name="text">
+    <string>Load Dictionary</string>
+   </property>
+  </action>
+  <action name="actionSave_Dictionary">
+   <property name="text">
+    <string>Save Dictionary</string>
+   </property>
+  </action>
+  <action name="actionEmpty_Dictionary">
+   <property name="text">
+    <string>Empty Dictionary</string>
+   </property>
+  </action>
+  <action name="actionView_Dictionary">
+   <property name="text">
+    <string>View Dictionary</string>
+   </property>
+  </action>
+  <action name="actionSpectral_Speller">
+   <property name="text">
+    <string>Spectral Speller</string>
+   </property>
+  </action>
+  <action name="actionNekudot_Guide">
+   <property name="text">
+    <string>Nekudot Guide</string>
+   </property>
+  </action>
+  <action name="actionTorah_Study">
+   <property name="text">
+    <string>Torah Study™</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

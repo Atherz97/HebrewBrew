@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/loading">
+        <file>hebrewbrew_loading.png</file>
+    </qresource>
+</RCC>
